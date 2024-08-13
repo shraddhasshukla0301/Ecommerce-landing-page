@@ -44,27 +44,20 @@ li {
     list-style-type: none;
 }
 
-.search-bar {
-    display: flex;
-    position: relative;  
-    left: 30px;
-}
-
-#search {
-    width: 350px;
-    max-height: 35px;
-    border-radius: 50px;
-    border: 1px solid gray;
-    padding: 20px;
-}
-
 .account-cart {
     display: flex;
     gap: 20px;
-    padding: 10px 20px;
 }
 
 .account {
+    padding: 10px;
+}
+
+.cart {
+    padding: 10px;
+}
+
+.fa-regular fa-user {
     padding: 10px;
 }
 
@@ -107,21 +100,35 @@ p {
 }
 
 .top-shop-Categories {
-    margin-left: 30px;
     height: 600px;
-
 }
 
 .img-shop {
     display: flex;
     gap: 23px;
-    position: relative;
+
+
 }
+
+.shop-content {
+    position: relative;
+    color: white;
+
+    margin: 0 auto;
+
+}
+
+.shop-content:hover {
+
+    transform: scale(0.8);
+}
+
 
 .img-text {
     position: absolute;
     top: 10px;
-    color: white;
+    left: 50px;
+
 
 
 }
@@ -139,6 +146,7 @@ p {
 
 .img-weekly {
     display: flex;
+
 }
 
 .weekly {
@@ -283,12 +291,13 @@ p {
 .all-type-items {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+
 }
 
 .best-deals-foryou {
     margin: 10px;
     background-color: #F5F6F6;
+    width: 300px;
 }
 
 .trending-container {
@@ -376,4 +385,20 @@ p {
 .terms-privacy {
     display: flex;
     justify-content: space-around;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 50px
+}
+
+.search-input {
+    width: 92%;
+    padding: 10px 15px;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    border: none;
 }
